@@ -1,8 +1,8 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'rnv5' do
-  # Pods for rnv5
+target 'ambilightapp' do
+  # Pods for ambilightapp
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -36,7 +36,7 @@ target 'rnv5' do
 
   pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
   
-  target 'rnv5Tests' do
+  target 'ambilightappTests' do
     inherit! :search_paths
     # Pods for testing
   end
@@ -44,10 +44,10 @@ target 'rnv5' do
   use_native_modules!
 end
 
-target 'rnv5-tvOS' do
-  # Pods for rnv5-tvOS
+target 'ambilightapp-tvOS' do
+  # Pods for ambilightapp-tvOS
 
-  target 'rnv5-tvOSTests' do
+  target 'ambilightapp-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

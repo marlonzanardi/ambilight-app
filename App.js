@@ -34,8 +34,6 @@ import RootStackScreen from './screens/RootStackScreen';
 
 import AsyncStorage from '@react-native-community/async-storage';
 
-import BluetoothSerial from 'react-native-bluetooth-serial';
-
 const Drawer = createDrawerNavigator();
 
 const App = () => {
@@ -131,9 +129,7 @@ const App = () => {
         // setUserToken(null);
         // setIsLoading(false);
         try {
-          BluetoothSerial.disconnect();
           await AsyncStorage.removeItem('userToken');
-          await AsyncStorage.removeItem('bluetoothConnection');
         } catch (e) {
           console.log(e);
         }

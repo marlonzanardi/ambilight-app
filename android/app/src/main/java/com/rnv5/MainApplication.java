@@ -1,4 +1,4 @@
-package com.rnv5;
+package com.ambilightapp;
 
 import android.app.Application;
 import android.content.Context;

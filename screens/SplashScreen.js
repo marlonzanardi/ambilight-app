@@ -23,11 +23,11 @@ const SplashScreen = ({navigation}) => {
         <Animatable.Image
           animation="bounceIn"
           duraton="1500"
-          //source={require('../assets/logoambiligth.jpg')}
-          source={{
-            uri:
-              'https://http2.mlstatic.com/D_NQ_NP_627148-CBT44768768925_022021-O.jpg',
-          }}
+          source={require('../assets/logoambiligth.jpg')}
+          // source={{
+          //   uri:
+          //     'https://http2.mlstatic.com/D_NQ_NP_627148-CBT44768768925_022021-O.jpg',
+          // }}
           style={styles.logo}
           resizeMode="stretch"
         />

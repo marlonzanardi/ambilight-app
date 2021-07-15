@@ -29,12 +29,13 @@ export function DrawerContent(props) {
           <View style={styles.userInfoSection}>
             <View style={{flexDirection: 'row', marginTop: 15}}>
               <Avatar.Image
-                source={{
-                  uri:
-                    'https://http2.mlstatic.com/D_NQ_NP_627148-CBT44768768925_022021-O.jpg',
-                }}
+                source={require('../assets/logoambiligth.jpg')}
                 size={50}
               />
+              <View style={{marginLeft: 15, flexDirection: 'column'}}>
+                <Title style={styles.title}>Ambilight APP</Title>
+                <Caption style={styles.caption}>@smart_leds</Caption>
+              </View>
             </View>
           </View>
 

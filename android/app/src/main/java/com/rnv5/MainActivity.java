@@ -1,4 +1,4 @@
-package com.rnv5;
+package com.ambilightapp;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "rnv5";
+    return "ambilightapp";
   }
 }

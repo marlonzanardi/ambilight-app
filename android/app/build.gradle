@@ -128,7 +128,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.rnv5"
+        applicationId "com.ambilightapp"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
